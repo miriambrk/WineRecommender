@@ -1,0 +1,196 @@
+.container {
+  background: lightgrey;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container-fluid {
+  background: lightgrey;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#data-container {
+  background: white;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+#comparison-container {
+  background: white;
+  padding-left: 40px;
+  padding-top: 30px;
+  margin: 30px;
+}
+
+.box {
+  height: 600px;
+  padding: 20px;
+  margin: 30px;
+  color: #fff;
+  background: white;
+}
+
+.box-long {
+  height: 600px;
+  padding: 20px;
+  margin: 30px;
+  color: black;
+  background: white;
+}
+
+.gap-right {
+  margin-right: 10px;
+}
+
+.gap-below {
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-right: 0px;
+  }
+
+.margin-top-80 {
+  margin-top: 80px;
+}
+
+#my_fig {
+  width : 120px;
+  height : 120px;
+  margin-right: 20px;
+  float: left;
+}
+
+.hr {
+   display: block;
+   height: 1px;
+   border: 0;
+   border-top: 1px solid #ccc;
+   margin: 1em 0;
+   padding: 0;
+}
+
+#hr {
+  height: 10px;
+  background: purple;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+h1 {
+  background: purple;
+  color: white;
+  position: absolute;
+  left: 5%;
+  top: 0%;
+}
+
+h2 {
+  background: white;
+  color: purple;
+}
+
+h4 {
+  background: white;
+  text-align: center;
+  color: purple;
+}
+
+
+h6 {
+  background: grey;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  padding-right:15px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  margin-top: 0;
+}
+
+.black-para {
+  color: black;
+}
+
+.main-header {
+  background : purple;
+  color: white;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.img {
+  border : 20px;
+  margin : 20px;
+  margin-top: 0px;
+  padding : 30px;
+  width : 120px;
+  height : 120px;
+  float : left;
+}
+
+#figure {
+  position: relative;
+}
+
+<!-- for table shading every other row -->
+table {
+  border-collapse: collapse;
+  width = 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {background-color: #e6e6fa;}
+
+
+/* Selecting elements by ID */
+#main-info {
+  float: right;
+
+}
+
+.thumbnail {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section .section-inner {
+  background: #fff;
+  padding: 30px;
+}
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #545e69;
+  font-size: 24px;
+}
+.section .content .more-link .fa {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  navbar-default {
+    position: relative;
+
+  }
+  navbar {
+    position: relative;
+
+  }
+}
