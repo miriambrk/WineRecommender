@@ -32,6 +32,7 @@
 
 
         </div>
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
@@ -40,11 +41,13 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="map.html">Wine Map</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
+
+
         <!-- /.container-fluid -->
       </nav>
 
@@ -59,37 +62,26 @@
 
         <div class="col-md-12" "col-lg-12">
           <div class="box-long">
-            <h2>Wine Recommender</h2>
 
-            <hr>
 
-              <p>Wine Recommender uses a machine learning model to recommend a wine variety to a user based on an input tweet with a description of a desired wine.</p>
-              <p>The components of the Wine Recommender are:
-                <ul>
-                  <li>Twitter BOT that listens for a tweet requesting a wine recommendation, calls the machine learning model to get the recommendation, and then
-                    tweets two responses:</li>
-                    <br>
-                    <ol>
-                      <li>Recommended variety of wine, along with the 3 top-rated wineries for that variety, along with their average price</li>
-                      <li>Recommended variety of wine, along with the 3 least expensive wineries for that variety, along with their average price</li>
-                    </ol>
-                  <br>
-                  <li>Machine learning model that reads a CSV file with Wine Enthusiast descriptions of wines, the wineries, points, and prices. <p>The model
-                    uses a neural network and natural language processing to be able to predict the wine variety based on an input description.</p></li>
-                  <li>Graphs and tabular data about the wines, varieties, and vineyards created using Tableau.</li>
-
-                </ul>
-              </p>
-              <br>
-              <p>To learn more about this project, including the details of neural network, please visit the code on
-                <a href="https://github.com/nblase22/Machine_Learning_Somm">GitHub.</a>
-              </p>
+            <script type='text/javascript' src='https://us-east-1.online.tableau.com/javascripts/api/viz_v1.js'></script>
+            <div class='tableauPlaceholder' style='width: 1350px; height: 900px;'>
+              <object class='tableauViz' width='1350' height='900' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fus-east-1.online.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='&#47;t&#47;mlproject' />
+                <param name='name' value='Wine&#47;PointsbyCountry' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='showAppBanner' value='false' />
+                <param name='filter' value='iframeSizedToWindow=true' />
+              </object>
             </div>
           </div>
+
+        </div>
         </div>
 
-
-      </div>
 
       <div class="row">
         <hr id="hr">
